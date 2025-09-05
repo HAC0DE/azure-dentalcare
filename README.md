@@ -1,73 +1,112 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🦷 Azure Bright Dental Care Website
 
-**URL**: https://lovable.dev/projects/d8bb2395-3bbf-4e0f-b250-7ab5206fc2c8
+A modern, responsive dental care website built with **Next.js**.  
+The project showcases dental services, booking appointments, and clinic details with a user-friendly design.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
+- ⚡ Built with **Next.js 14**
+- 📱 Fully responsive UI (mobile-first)
+- 🗂️ Pages for services, about us, contact, and appointments
+- 🗓️ Online appointment booking form
+- 🌐 SEO optimized for better ranking
+- 🎨 Styled with Tailwind CSS
+- 🔒 Secure and fast deployment ready
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d8bb2395-3bbf-4e0f-b250-7ab5206fc2c8) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Project Structure
 ```
 
-**Edit a file directly in GitHub**
+azure-bright-dental-main/
+│── public/          # Static files (images, favicon, etc.)
+│── src/
+│   ├── app/         # App router pages (Next.js 13+)
+│   ├── components/  # Reusable UI components
+│   ├── styles/      # Global and module CSS
+│── package.json     # Project dependencies
+│── next.config.js   # Next.js configuration
+│── README.md        # Documentation
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+````
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **Backend (optional):** Node.js / API routes in Next.js  
+- **Deployment:** Vercel / Netlify / AWS  
+- **Version Control:** Git + GitHub  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ⚙️ Installation & Setup
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/azure-dentalcare.git
+cd azure-dentalcare
+````
 
-## How can I deploy this project?
+Install dependencies:
 
-Simply open [Lovable](https://lovable.dev/projects/d8bb2395-3bbf-4e0f-b250-7ab5206fc2c8) and click on Share -> Publish.
+```bash
+npm install
+# or
+yarn install
+```
 
-## Can I connect a custom domain to my Lovable project?
+Run development server:
 
-Yes, you can!
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Now open [http://localhost:3000](http://localhost:3000) to see your site.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📸 Screenshots
+
+(Add some screenshots or GIFs of your homepage, services, and booking page here)
+
+---
+
+## 🌍 Deployment
+
+Easily deploy with **Vercel** (recommended):
+
+```bash
+npm run build
+npm run start
+```
+
+Then connect your GitHub repo to [Vercel](https://vercel.com) for automatic deployments.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+---
+
+## 👨‍⚕️ Author
+
+**Azure Bright Dental Care**
+Website for modern dental services and patient care.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and modify for your own projects.
+
